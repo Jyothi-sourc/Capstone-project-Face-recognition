@@ -1,0 +1,38 @@
+Face recognition Comparision on Edge devices:
+
+What is Face recognition from project implementation?
+Recognising prescenc of face in an image is Face recognition
+
+Face recognition > Face detection/ Face localisation + Face recognition
+
+
+
+Face localisation
+> Haar classifier	: Adaboost trained model		: Fast, low Accuracy
+> MTCNN 		: CNN network for face localisation	: slow, High Accuracy
+
+MTCNN stands for "Multi-task Cascaded Convolutional Networks." 
+
+
+Face recognition:
+5 different methods
+
+Face Recogniton library : facial landmarks (facial Keypoint detector): 64D Hyperplane  : Clustering --> model1
+Face Recogniton library : facial landmarks (facial Keypoint detector): 64D Hyperplane  : SVM ---> model2
+Eigen faces : PCA (Principal Component Ananlysis) : model3
+VGG16 : Transfer learning technique : Model4 
+Facenet : embeddeings + SVM : Model 5
+
+
+> Training and testing  : time , accuray
+> Deployment : Time
+
+LFW -> Labeled faces in the wild
+custom dataset : with images
+
+models comparision in windows PC is done
+
+models in comparision in (jetson nano) Ubuntu and Rasberrypi
+
+
+
